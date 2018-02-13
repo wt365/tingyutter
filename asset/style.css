@@ -1,0 +1,47 @@
+/* Tingyutter Style by Tingyu Studio */
+/* Global */
+* {margin: 0; padding: 0; border: 0; outline: 0;}
+*,*:before,*:after {box-sizing: border-box;}
+body {line-height: 1.5; font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","PingFang SC","Heiti SC",sans-serif;}
+a,a:link,a:visited,a:focus,a:active {color: rgb(255,51,0); text-decoration: none;}
+a:hover {text-decoration: underline;}
+input, select, textarea {font-size: 100%; line-height: 1.5;}
+input, textarea {padding: 0.375em 0.5em; border: 1px solid #ccc;}
+.button {border: 0 !important; padding: 0.5em 1.5em !important; line-height: 1.5; text-align: center; cursor: pointer; background: #f2f2f2; color: #8c8c8c; border-radius: 0.25em; margin: 2em auto;}
+.blue {background: #367ac3; color: #fff;}
+.button:hover{background: #d9d9d9; color: #000;}
+.blue:hover {background: #255587; color: #bfbfbf;}
+/* Tweets */
+.wrapper {color: rgb(41,47,51); font-size: 87.5%; line-height:1.286; max-width: 600px; margin: 2em auto; border-radius: 1em;}
+.one {border: 1px solid rgb(225,232,237); padding: 2em;}
+.one + .one {border-top: 0;}
+.home {background: rgb(255,234,229); color:#ff572e; line-height: 1.5; border: 1px solid rgb(255,204,191); border-top-left-radius: 1em; border-top-right-radius: 1em;}
+.home h1 {font-size: 1.75em;}
+.home h2 {font-size: 1em;}
+.finale {border-bottom-left-radius: 1em; border-bottom-right-radius: 1em;}
+.header {overflow: hidden;}
+.avatar {width: 3em; height: 3em; float: left;}
+.avatar img {width:100%; border-radius: 0.25em;}
+.meta {padding-left: 0.75em; float: left;}
+.author {font-weight: bold;}
+.time, .none {color: rgb(136,153,166);}
+.tweet {padding-left: 3.75em;}
+.none {text-align: center;}
+.img-frame {width: 240px; padding: 8px; box-shadow: 0px 0px 3px rgba(0,0,0,0.5); border-radius: 4px;}
+.img-frame img {display:block; max-width: 100%; margin: auto;}
+.img-frame p {margin-top: 8px;}
+/* Add New Tweet */
+.box {padding: 2em;}
+.center p {text-align: center;}
+.line input, .line select, .line button {display: inline !important;}
+.ta {display: block; width: 100%; height: 8em; font-size:16px; font-family: Arial, 'Microsoft Yahei', sans-serif;}
+/* Mobile */
+@viewport{width: device-width;}
+@media (max-width: 767px) {
+	body {padding: 1em;}
+	.wrapper {margin-top: 0;}
+	.one, .box {padding: 1em;}
+	.home h1 {font-size: 1.5em;}
+	.img-frame {width: 92%;}
+	#imgfile {width: 100%;}
+}
